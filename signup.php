@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (mail($to, $subject, $message, $headers)) {
         echo "Thank you for signing up!";
     } else {
-        echo "There was an error, please try again.";
+        echo "ITS A PRANK NIGGA!! FUCK U >:";
     }
 }
 ?>

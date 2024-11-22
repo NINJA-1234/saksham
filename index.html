@@ -3,59 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f0f0f0;
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-        .signup-container {
-            background-color: white;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .signup-container h1 {
-            text-align: center;
-        }
-        .signup-container form {
-            display: flex;
-            flex-direction: column;
-        }
-        .signup-container form input {
-            margin-bottom: 10px;
-            padding: 10px;
-            font-size: 16px;
-        }
-        .signup-container form button {
-            padding: 10px;
-            background-color: #007BFF;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-        .signup-container form button:hover {
-            background-color: #0056b3;
-        }
-    </style>
+    <title>Home | Animated Website</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="signup-container">
-        <h1>Sign Up</h1>
-        <form action="signup.php" method="POST">
-            <input type="text" name="name" placeholder="Full Name" required>
-            <input type="email" name="email" placeholder="Email Address" required>
-            <input type="password" name="password" placeholder="Password" required>
-            <button type="submit">Sign Up</button>
-        </form>
-    </div>
+    <header>
+        <h1 class="fade-in">Welcome to My Animated Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero zoom-in">
+            <h2>Discover Something Amazing</h2>
+            <p>Animation brings life to websites. Let’s make it engaging and fun!</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Animated Website | All Rights Reserved</p>
+    </footer>
 </body>
 </html>
 

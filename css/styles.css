@@ -1,127 +1,40 @@
-/* General Styles */
-body {background-image: url('https://wallpapercave.com/wp/wp2222403.jpg')
-    font-family: 'Arial', sans-serif;
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
-    background: #f3f4f6;
-    color: #333;
 }
 
 header {
-    background: #333;
-    color: #fff;
-    padding: 1rem;
+    background: #0044cc;
+    color: white;
+    padding: 1em;
     text-align: center;
-    position: sticky;
-    top: 0;
 }
 
-header h1 {
-    margin: 0;
-    animation: fadeIn 2s ease-in-out;
+nav {
+    margin: 1em 0;
 }
 
-header nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    margin: 1rem 0 0;
-}
-
-header nav ul li {
-    margin: 0 1rem;
-}
-
-header nav ul li a {
-    color: #fff;
+nav a {
+    color: white;
     text-decoration: none;
-    font-size: 1.2rem;
-    transition: color 0.3s;
+    margin: 0 1em;
 }
 
-header nav ul li a:hover {
-    color: #f7c02f;
+nav a:hover {
+    text-decoration: underline;
 }
 
-.hero {
-    background: #f7c02f;
-    color: #333;
-    padding: 2rem;
-    text-align: center;
-    animation: zoomIn 1.5s ease-in-out;
-}
-
-.hero h2 {
-    font-size: 2rem;
-    margin: 0;
-}
-
-.hero p {
-    font-size: 1.2rem;
-    margin: 1rem 0;
+main {
+    padding: 2em;
 }
 
 footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-    margin-top: 2rem;
-}
-
-/* Buttons */
-.btn {
-    background: #0288d1;
+    background: #002244;
     color: white;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    border-radius: 5px;
-    border: none;
-    transition: background 0.3s;
-}
-
-.btn:hover {
-    background: #026aa7;
-}
-
-/* Animations */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes zoomIn {
-    from {
-        transform: scale(0.5);
-    }
-    to {
-        transform: scale(1);
-    }
-}
-
-@keyframes slideIn {
-    from {
-        transform: translateX(-100%);
-    }
-    to {
-        transform: translateX(0);
-    }
-}
-
-.fade-in {
-    animation: fadeIn 2s ease-in-out;
-}
-
-.zoom-in {
-    animation: zoomIn 1.5s ease-in-out;
-}
-
-.slide-in {
-    animation: slideIn 1.5s ease-in-out;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
